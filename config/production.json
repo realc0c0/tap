@@ -1,0 +1,30 @@
+{
+    "app": {
+        "name": "Mr. Gnome Tap-to-Earn"
+    },
+    "server": {
+        "port": 80,
+        "host": "0.0.0.0",
+        "cors": {
+            "origin": ["https://your-production-domain.com"],
+            "methods": ["GET", "POST"]
+        }
+    },
+    "database": {
+        "url": "YOUR_PRODUCTION_SUPABASE_URL",
+        "key": "YOUR_PRODUCTION_SUPABASE_KEY"
+    },
+    "telegram": {
+        "botToken": "YOUR_PRODUCTION_BOT_TOKEN",
+        "webAppUrl": "https://t.me/MrGnomeBot"
+    },
+    "security": {
+        "rateLimit": {
+            "windowMs": 900000,
+            "max": 50
+        }
+    },
+    "logging": {
+        "level": "warn"
+    }
+}

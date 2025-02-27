@@ -1,0 +1,29 @@
+{
+    "app": {
+        "name": "Mr. Gnome Tap-to-Earn (Test)"
+    },
+    "server": {
+        "port": 3001,
+        "host": "localhost",
+        "cors": {
+            "origin": ["http://localhost:3000"],
+            "methods": ["GET", "POST"]
+        }
+    },
+    "database": {
+        "url": "YOUR_TEST_SUPABASE_URL",
+        "key": "YOUR_TEST_SUPABASE_KEY"
+    },
+    "telegram": {
+        "botToken": "YOUR_TEST_BOT_TOKEN",
+        "webAppUrl": "https://t.me/MrGnomeTestBot"
+    },
+    "game": {
+        "tapCooldown": 1,
+        "baseTapReward": 10,
+        "maxBoosterMultiplier": 10
+    },
+    "logging": {
+        "level": "debug"
+    }
+}
